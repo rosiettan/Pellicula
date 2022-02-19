@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Noto+Serif&family=Roboto+Condensed:wght@300&family=The+Nautigal&display=swap"
+          rel="stylesheet">
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/2a236ea976.js"></script>
+    <link rel="icon" href="assets/images/logo.png">
+    <title>Home</title>
+</head>
+<body>
+<div class="header">
+    <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <p class="navbar-logo ml-4">Pellicula</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="main.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="page.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="movies.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="signup.html">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="login_page.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="next_container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 class="intro_subtitle">Fell in love from the first frame </h2>
+    <h1 class="intro_title"><p>Welcome to</p>
+        <p>world of</p>
+        <p>movies!</p></h1>
+    <h2 class="intro_subtitle_under" onclick="changeText(this)"> Watch anywhere and anytime. Be in the moment</h2>
+    <div class="d-flex justify-content-center h-100">
+        <div class="searchbar">
+            <input class="search_input" type="text" id="search" placeholder="Search..." onchange="openPage()">
+            <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+            <script>
+                function openPage() {
+                    var x = document.getElementById("search").value;
+                    if(x === "Minions" || x === "minions") {
+                        window.open("assets/images/minions.mp4");
+                    }
+                    if(x === "Joker" || x === "joker"){
+                        window.open("assets/images/joker.mp4");
+                    }
+                    if(x === "Spider man" || x === "spider man"){
+                        window.open("assets/images/spiderman.mp4")
+                    }
+                    if(x === "Harry Potter and the Goblet of Fire" || x === "harry potter and the Goblet of Fire") {
+                        window.open("assets/images/Harry%20Potter%204.mkv")
+                    }
+                }
+            </script>
+            <script>
+                function changeText(id) {
+                    id.innerHTML = "Just don't watch if you're in the toilet";
+                }
+            </script>
+        </div>
+    </div>
+    <br>
+</div>
+<div class="media_container">
+    <br>
+    <br>
+    <h1 class="main_title">Popular movies</h1>
+    <div class="mcontainer">
+        <div class="serial_slider">
+            <div class="slide_track2">
+                <div class="slide2">
+                    <img src='assets/images/img1.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img2.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img3.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img4.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img5.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img6.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img7.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img8.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img9.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img10.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img11.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img12.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img13.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img14.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img15.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img16.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img17.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img18.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img19.jpg'/>
+                </div>
+                <div class="slide2">
+                    <img src='assets/images/img20.jpg'/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-sm">
+        <p style="color: bisque; font-weight: bold">Type name of film in the input field to search the information:</p>
+        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <br>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Rating</th>
+                <th>Genre</th>
+            </tr>
+            </thead>
+            <tbody id="myTable">
+            <tr>
+                <td>Matrix</td>
+                <td>1999</td>
+                <td>8,5</td>
+                <td>action sci-fi</td>
+            </tr>
+            <tr>
+                <td>Spider man: No way home</td>
+                <td>2021</td>
+                <td>8,3</td>
+                <td>action adventure fantasy</td>
+            </tr>
+            <tr>
+                <td>Joker</td>
+                <td>2019</td>
+                <td>8</td>
+                <td>drama crime thriller</td>
+            </tr>
+            <tr>
+                <td>Scream</td>
+                <td>2022</td>
+                <td>7,9</td>
+                <td>horror thriller detective</td>
+            </tr>
+            <tr>
+                <td>West side story</td>
+                <td>2021</td>
+                <td>7,8</td>
+                <td>crime drama musical</td>
+            </tr>
+            <tr>
+                <td>Dune</td>
+                <td>2021</td>
+                <td>7,7</td>
+                <td>action adventure drama</td>
+            </tr>
+            <tr>
+                <td>Don’t look up</td>
+                <td>2021</td>
+                <td>7,6</td>
+                <td>comedy drama sci-fi</td>
+            </tr>
+            <tr>
+                <td>The unforgivable</td>
+                <td>2021</td>
+                <td>7,3</td>
+                <td>crime drama</td>
+            </tr>
+            <tr>
+                <td>Me before you</td>
+                <td>2016</td>
+                <td>7,2</td>
+                <td>melodrama</td>
+            </tr>
+            <tr>
+                <td>5 feet apart</td>
+                <td>2019</td>
+                <td>7,2</td>
+                <td>drama romance</td>
+            </tr>
+            <tr>
+                <td>House of gucci</td>
+                <td>2021</td>
+                <td>7,2</td>
+                <td>crime drama</td>
+            </tr>
+            <tr>
+                <td>No time to die</td>
+                <td>2021</td>
+                <td>7,1</td>
+                <td>action adventure thriller</td>
+            </tr>
+            <tr>
+                <td>Real steel</td>
+                <td>2011</td>
+                <td>7</td>
+                <td>action family science-fiction</td>
+            </tr>
+            <tr>
+                <td>Venom</td>
+                <td>2018</td>
+                <td>6,9</td>
+                <td>action
+                    thriller
+                    science-fiction</td>
+            </tr>
+            <tr>
+                <td>Baby driver</td>
+                <td>2017</td>
+                <td>6,9</td>
+                <td>drama crime action</td>
+            </tr>
+            <tr>
+                <td>Eternals</td>
+                <td>2021</td>
+                <td>6,7</td>
+                <td>action adventure fantasy</td>
+            </tr>
+            <tr>
+                <td>Pirates of the caribbean: On stranger tides</td>
+                <td>2011</td>
+                <td>6,6</td>
+                <td>action adventure fantasy</td>
+            </tr>
+            <tr>
+                <td>Mulan</td>
+                <td>2020</td>
+                <td>6,3</td>
+                <td>action drama fantasy</td>
+            </tr>
+            <tr>
+                <td>Stars</td>
+                <td>2019</td>
+                <td>6,2</td>
+                <td>romance drama</td>
+            </tr>
+            <tr>
+                <td>Black Widow</td>
+                <td>2021</td>
+                <td>6,2</td>
+                <td>action adventure sci-fi</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+</div>
+
+<div class="next_container2">
+    <hr class="next_two">
+    <h3 class="next_text1">Best series</h3>
+    <div class="serial_slider">
+        <div class="slide_track2">
+            <div class="slide2">
+                <img src='./assets/images/ser1.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser2.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser3.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser4.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser5.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser6.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser7.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser8.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser9.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser10.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser11.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser12.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser13.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser14.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser15.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser16.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser17.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser18.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser19.jpg'/>
+            </div>
+            <div class="slide2">
+                <img src='./assets/images/ser20.jpg'/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="next_container4">
+    <hr class="next_three">
+    <h5 class="next_text2">About</h5>
+    <h5 class="next_text3">What is Pellicula?</h5>
+    <div class="container-fluid">
+        <div class="row">
+            <p class="text"><strong style="color: bisque">Pellicula</strong> - is an unique and convenient online cinema platform that offers a wide variety of exciting content.
+                In the late '90s, we started as purely DVD movie rental service. With time by growing and analyzing changes in customers
+                interests and needs, our company decided to introduce a streaming service. It allowed users to watch television shows or movies
+                online by using their personal computers. Later found out that the decision was the right one, and it brought our website to huge success.
+                Today, we provide many more materials, such as TV  shows, movies, and cartoons. We created a website where you and your family can freely
+                watch any videos in excellent quality without registration. All you have to do is press the button «play» and enjoy your favourite movie
+                or show anywhere and anytime.</p>
+        </div>
+        <script src="assets/script.js"> </script>
+            <div class="col"><video loop autoplay muted controls src="assets/images/tv.m4v"> </video></div>
+    </div>
+    <p style="margin-left: 50px; font-weight: bold; font-size: 20px;"> Tap to listen to the sound </p>
+
+    <audio src="assets/about.mp3" id="audio"></audio>
+    <div id="logo"></div>
+    <script>
+        var audio, context, analyser, src, array, logo;
+        logo = document.getElementById("logo").style;
+        audio = document.getElementById("audio");
+        window.onclick = function (){
+            if(!context){
+                preparation();
+            }if(audio.paused){
+                audio.play();
+                loop();
+            }else{
+                audio.pause();}
+        }
+        function preparation(){
+            context = new AudioContext();
+            analyser = context.createAnalyser();
+            src = context.createMediaElementSource(audio);
+            src.connect(analyser);
+            analyser.connect(context.destination);
+            loop();}
+        function loop(){
+            if(audio.pause){
+                window.requestAnimationFrame(loop);}
+            array = new Uint8Array(analyser.frequencyBinCount);
+            analyser.getByteFrequencyData(array);
+            logo.minHeight = (array[40])+"px";
+            logo.width = (array[40])+"px";}
+    </script>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
+<script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<div class="rights">
+    <h6 class="copyright">
+        Copyright est.2021 &copy;Pellicula. Powered by Rosiettan Company. All Rights Reserved
+    </h6>
+</div>
+</body>
+</html>
